@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tasca2/screens/home_page.dart';
+import 'package:tasca2/styles/app_styles.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,12 +11,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return MaterialApp(
+      theme: AppStyles.generalTheme,
+      home: const HomePage(),
     );
   }
 }
