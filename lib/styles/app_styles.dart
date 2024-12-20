@@ -39,6 +39,22 @@ class AppStyles {
   static const Color colorIconCard = Color(0xFFBF63F8);
   static const Color colorGraphProgress = Color(0xFF3407DA);
 
+  //fuentes Profile Scree
+  static const TextStyle styleTimeText = TextStyle(
+    fontSize: 18,
+  );
+  static const TextStyle styleKmText = TextStyle(
+    fontSize: 18,
+  );
+  static const TextStyle styleActivitiesText = TextStyle(
+    fontSize: 18,
+  );
+  static const TextStyle styleNumberText = TextStyle(
+    fontSize: 21,
+  );
+  //Colores Profile Screen
+  static const Color colorProfileCard = Color(0xFFBF63F8);
+
   //Temas
   static ThemeData generalTheme = ThemeData(
     fontFamily: GoogleFonts.montserrat().fontFamily,
